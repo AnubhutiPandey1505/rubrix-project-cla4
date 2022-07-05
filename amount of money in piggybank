@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main () {
+int rs10,rs5,rs2,re1,total;
+printf("Enter no.of 10 rupees coins\n");
+scanf("%d" ,&rs10);
+printf("Enter no.of 5 rupees coins\n");
+scanf("%d",&rs5);
+printf("Enter no.of 2 rupees coins\n");
+scanf("%d",&rs2);
+printf("Enter no.of 1 rupee coins\n");
+scanf("%d",&re1);
+total=(10*rs10)+(5*rs5)+(2*rs2)+(1*re1);
+printf("Total money=rs%d",total);
+}
